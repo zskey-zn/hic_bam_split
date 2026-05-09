@@ -1,6 +1,11 @@
 # hic_bam_split
 Use hash split large Hi-C bam
 
+# Dependencies
+Software:
+- [python3](https://www.python.org/)
+- [samtools](https://github.com/samtools/samtools)
+  
 # Install
 bash install_hic_split.sh
 
