@@ -5,14 +5,12 @@ Use hash split large Hi-C bam
 bash install_hic_split.sh
 
 # exec file
-
-可用工具：
   1. C扩展库: libhic_split.so
   2. Python包装器: ./hic_split.py
   3. 命令行工具: ./hic_split_cli
   4. 独立可执行文件: ./hic_split_exec
 
-使用方法：
+# Usage
   ```bash
   # Python版本
   python3 hic_split.py input.bam --chunks 100 --prefix split
